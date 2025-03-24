@@ -10,5 +10,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+
+  // 新增 app.d.ts
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "app.d.ts"]
 }
